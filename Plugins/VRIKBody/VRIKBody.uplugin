@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "4.18.0",
+	"FriendlyName": "VR IK Body",
+	"Description": "VR IK Body Plugin is designed to evaluate body position in the world space based on the orientation and location of motion controllers and HMD. It is sensible to spine rotation, crouch and leaning.",
+	"Category": "Virtual Reality",
+	"CreatedBy": "Anti Anti Games",
+	"CreatedByURL": "http://antiantigame.ru",
+	"DocsURL": "http://antiantigame.ru/docs/VR_IK_Body_Plugin.pdf",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c7314be54a7d49939c2dabc13fe1ffff",
+	"SupportURL": "ykasczc@gmail.com",
+	"EngineVersion": "4.18.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VRIKBodyRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "VRIKBodyEditor",
+			"Type": "Developer",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
